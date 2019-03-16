@@ -5,14 +5,13 @@
 Question 3. Language Modeling:
 
 3.1 Implement a 5-gram character language model from the following English
-training data:
-http://www.nltk.org/nltk_data/packages/corpora/gutenberg.zip
+training data: http://www.nltk.org/nltk_data/packages/corpora/gutenberg.zip
+
 Remove blank lines from each file. Replace newline characters with spaces, and remove duplicate
 spaces. Across all files in the directory (counted together), report the 4-gram and 5-gram
 character counts.
 
-3.2 The test dataset is given here:
-https://www.dropbox.com/s/hpcsp1ifwiwaixg/SOC_new.zip?dl=0
+3.2 The test dataset is given here: https://www.dropbox.com/s/hpcsp1ifwiwaixg/SOC_new.zip?dl=0
 Remove blank lines from the test data, replace newline characters with spaces, and remove
 duplicate spaces.
 Take the file that is named ”03302 02.txt”. This is an English file. Report the average perplexity
@@ -25,15 +24,12 @@ names and scores of the three files with the highest perplexity.
 Question 4. POS Tagging - HMM - Hidden Markov Models:
 
 The training dataset is a subset of the Brown corpus, where each file contains sentences of
-tokenized words followed by POS tags, and where each line contains one sentence:
-https://www.dropbox.com/s/6y365hoxd7huzbm/browncopy.zip?dl=0
+tokenized words followed by POS tags, and where each line contains one sentence: https://www.dropbox.com/s/6y365hoxd7huzbm/browncopy.zip?dl=0
 
 The test dataset (which is another subset of the Brown corpus, containing tokenized words but no
-tags) is the following:
-https://www.dropbox.com/s/hk6uk5amkf6ubww/humor.txt?dl=0
+tags) is the following: https://www.dropbox.com/s/hk6uk5amkf6ubww/humor.txt?dl=0
 Implement a part-of-speech tagger using a bigram HMM. 
-Use Viterbi algorithm for decoding (eq. 10.9 in
-book - http://web.stanford.edu/˜jurafsky/slp3/10.pdf).
+Use Viterbi algorithm for decoding (eq. 10.9 in book - http://web.stanford.edu/˜jurafsky/slp3/10.pdf).
 
 4.1 Obtain frequency counts from the collection of all the training files (counted
 together). You will need the following types of frequency counts: word/tag counts, tag unigram
