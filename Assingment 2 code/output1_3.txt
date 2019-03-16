@@ -1,0 +1,37 @@
+for the file government.txt, 
+the most common preposition counts are: 
+('of', 2261)
+('to', 1408)
+('in', 1040)
+the total preposition counts are: 8469
+
+for the file mystery.txt, 
+the most common preposition counts are: 
+('of', 3122)
+('to', 2641)
+('in', 1634)
+the total preposition counts are: 14824
+
+for the file news.txt, 
+the most common preposition counts are: 
+('of', 5756)
+('to', 4616)
+('in', 3402)
+the total preposition counts are: 27557
+
+for the file reviews.txt, 
+the most common preposition counts are: 
+('of', 6934)
+('to', 5246)
+('in', 3991)
+the total preposition counts are: 32275
+
+for the file romance.txt, 
+the most common preposition counts are: 
+('of', 8032)
+('to', 6658)
+('in', 4786)
+the total preposition counts are: 39550
+
+
+Overall preposition Counts are: 122675

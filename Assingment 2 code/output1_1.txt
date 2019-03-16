@@ -1,0 +1,22 @@
+for the file news.txt, 
+the verb counts are:  12327
+for the file reviews.txt, 
+the verb counts are:  4574
+for the file government.txt, 
+the verb counts are:  6831
+for the file mystery.txt, 
+the verb counts are:  9580
+for the file romance.txt, 
+the verb counts are:  11380
+
+the total verb counts are: 44692
+
+
+
+POS tags used to identify verbs:
+VB - Verb, base form
+VBD - Verb, past tense
+VBG - Verb, gerund or present participle
+VBN - Verb, past participle
+VBP - Verb, non-3rd person singular present
+VBZ - Verb, 3rd person singular present

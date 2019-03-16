@@ -1,0 +1,31 @@
+
+Dependency Parsing Errors:
+1. The accuracy of Dependency Parsing decreases with increase in sentence length.
+2. Dependency parsers often does not capture the fact that words have arities. Due to this, there is a chance of erroneous parsing results.
+
+One of the improvements for Dependency Parsing to omit these errors is to add probabilistic dependencies. 
+
+
+Context free Parsing Errors:
+1. The accuracy of the Context Free parsing decreases with the increase in sentence length.
+2. Attaching a different label for a word when the sentence contains a indirect question.
+
+For example: Do you know that I know?
+
+(ROOT
+  (S
+    (VP
+      (VB do)
+      (SBAR
+        (S
+          (NP (PRP you))
+          (VP
+            (VBP know)
+            (SBAR (IN that) (S (NP (PRP I)) (VP (VBP know))) (. ?))))))
+    (. .)))
+
+Here the label attached for the node is S, but it should be SQ.
+
+One of the improvements for Context free Parsing can be to improve how well it builds the sentence structure rather than concentrating on improving the pos Tagging.
+
+Context Free Parsers are generally faster and more accurate than Dependency Parsers.

@@ -1,0 +1,9 @@
+recall score for the model is : 0.9689759036144578
+precision score for the model is : 0.9689759036144578
+The most useful parameters are:  {'activation': 'identity', 'hidden_layer_sizes': (10, 1)}
+
+
+I have used different activation functions like: ‘identity’, ‘logistic’, ‘tanh’ and ‘relu’.
+different number of nodes for hidden layer 1 : 3,4,5,10,15,20,25
+
+The best results came for: 'activation': 'identity' and 5 nodes in hidden layer 1.

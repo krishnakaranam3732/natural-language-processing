@@ -1,0 +1,12 @@
+for the file news.txt, 
+the sentence count is:  4106
+for the file reviews.txt, 
+the sentence count is:  1568
+for the file government.txt, 
+the sentence count is:  2427
+for the file mystery.txt, 
+the sentence count is:  3692
+for the file romance.txt, 
+the sentence count is:  4186
+
+total sentence count is: 15979
